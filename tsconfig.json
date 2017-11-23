@@ -1,0 +1,17 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+      "module": "commonjs",
+      "target": "es2016",
+      "noImplicitAny": true,
+      "sourceMap": false,
+      "outDir": "./dist",
+      "noImplicitUseStrict": true
+  },
+  "include": [
+      "src/**/*"
+  ],
+  "exclude": [
+      "node_modules"
+  ]
+}
