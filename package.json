@@ -1,0 +1,34 @@
+{
+  "name": "aws-ec2-shutdown",
+  "version": "1.0.0",
+  "description": "Shuts down AWS EC2 instances",
+  "main": "index.js",
+  "dependencies": {
+    "aws-sdk": "^2.156.0"
+  },
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.2.3"
+  },
+  "scripts": {
+    "start": "npm run build",
+    "build": "gulp cleanBuild & tsc",
+    "prepublish": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrianPainter88/AwsEc2Shutdown.git"
+  },
+  "keywords": [
+    "aws",
+    "ec2"
+  ],
+  "author": "Brian Painter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BrianPainter88/AwsEc2Shutdown/issues"
+  },
+  "homepage": "https://github.com/BrianPainter88/AwsEc2Shutdown#readme"
+}
